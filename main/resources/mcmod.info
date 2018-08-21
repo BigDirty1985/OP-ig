@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dirtysutils",
+  "name": "Dirty's Utilities",
+  "description": "Small Tweaks for my modpacks",
+  "version": "0.0.1",
+  "mcversion": "${1.10.2}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["BigDirty1985"],
+  "credits": "The Forge, MCP, and FML guys, for making it possible",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
