@@ -8,30 +8,23 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
 
-	public static ItemBase pliers,saw,hammer,leatherCured,
-	rawPapyrus,soakedPapyrus,papyrusSheet,driedPapyrusSheet,bacon;
+	public static ItemPoo poo;
+	public static ItemLard lard;
+	public static ItemBacon bacon;
+	public static ItemRawBacon rawBacon;
+	public static ItemRawMignon rawMignon;
+	public static ItemFiletMignon filetMignon;
 	
-	public static Item honeyDewSeed;
-	public static Item honeyDewSlice;
-	public static ItemSword knife;
 	public static void init() {
 		//food
-		bacon = register(new ItemBase("bacon").setCreativeTab(CreativeTabs.FOOD));
-		
+		rawBacon = register(new ItemRawBacon());
+		bacon = register(new ItemBacon());
+		rawMignon = register(new ItemRawMignon());
+		filetMignon = register(new ItemFiletMignon());
+		poo = register(new ItemPoo("poo"));
+		lard = register(new ItemLard());
 		
 		//Materials
-		//rawPapyrus = register(new ItemBase("rawPapyrus").setCreativeTab(CreativeTabs.MATERIALS));
-		//soakedPapyrus = register(new ItemBase("soakedPapyrus").setCreativeTab(CreativeTabs.MATERIALS));
-		//papyrusSheet = register(new ItemBase("papyrusSheet").setCreativeTab(CreativeTabs.MATERIALS));
-		//driedPapyrusSheet = register(new ItemBase("driedPapyrusSheet").setCreativeTab(CreativeTabs.MATERIALS));
-		//leatherCured= register(new ItemBase("leatherCured").setCreativeTab(CreativeTabs.MATERIALS));
-		
-		//Tools
-		//saw = register(new ItemBase("saw").setCreativeTab(CreativeTabs.TOOLS));
-		//pliers = register(new ItemBase("pliers").setCreativeTab(CreativeTabs.TOOLS));
-		//hammer = register(new ItemBase("hammer").setCreativeTab(CreativeTabs.TOOLS));
-		//knife =  (ItemSword) register(new ItemSword(OPig.flintToolMaterial,"knife").setCreativeTab(CreativeTabs.TOOLS));
-		//knife.setContainerItem(knife);
 		
 	}
 

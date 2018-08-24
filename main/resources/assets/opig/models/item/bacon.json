@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "dirtysutils:items/pliers"
+        "layer0": "opig:items/bacon"
     }
 }
