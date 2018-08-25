@@ -23,7 +23,7 @@ public class OPig {
 
 	public static final String modId = "opig";
 	public static final String name = "OP-ig";
-	public static final String version = "0.0.2";
+	public static final String version = "1.1.0";
 
 	@Mod.Instance(modId)
 	public static OPig instance;
